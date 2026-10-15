@@ -6,9 +6,9 @@ An English LuCI application for managing sing-box subscriptions, connecting your
 
 Created by **Kevin Zakarian**. Current application version: **1.0.0-30**.
 
-![NARA custom routing](screenshots/nara-1.0.0-30-custom-routing.png)
+![NARA Connection — full page](screenshots/nara-connection.jpg)
 
-*Screenshots show the local preview with simulated data.*
+*Full-page Connection tab, using the Default skin and simulated preview data.*
 
 ## Features
 
@@ -138,8 +138,6 @@ python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
 Open `http://127.0.0.1:8765/preview/`. The production LuCI view runs with simulated responses, without connecting a VPN or changing routing.
-
-![NARA About](screenshots/nara-1.0.0-29-about.png)
 
 ## Troubleshooting and privacy
 
