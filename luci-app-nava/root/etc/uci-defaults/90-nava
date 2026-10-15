@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+umask 077
+mkdir -p /etc/nava /usr/lib/nava/core
+chmod 700 /etc/nava /usr/lib/nava/core
+# IPK sources have reproducible timestamps. Python can otherwise reuse a
+# previous release's bytecode when a changed file has the same size.
+rm -rf /usr/lib/nava/__pycache__
+# Preserve user settings across package upgrades; never enable a fresh install.
+exit 0

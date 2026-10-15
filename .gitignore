@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.venv/
+dist/
+.DS_Store
+snapshots/
+
+# Private historical router diagnostics and device captures.
+/docs/
+
+# Local credentials and temporary files.
+.env
+.env.*
+*.pem
+*.key
+*.log
+*.ipk
+.idea/
+.vscode/
+
+# Superseded local preview capture.
+/screenshots/routing-1.0.0-26.png

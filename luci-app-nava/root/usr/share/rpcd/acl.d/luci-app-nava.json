@@ -1,0 +1,7 @@
+{
+  "luci-app-nava": {
+    "description": "Manage NARA proxy connections",
+    "read": { "ubus": { "nava": ["status"] } },
+    "write": { "ubus": { "nava": ["action", "subscription"] } }
+  }
+}

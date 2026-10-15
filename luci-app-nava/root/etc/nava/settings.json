@@ -1,0 +1,20 @@
+{
+  "subscription_url": "",
+  "subscriptions": [],
+  "active_subscription": "",
+  "selected": "auto",
+  "ipv6": true,
+  "autostart": false,
+  "dns_mode": "default",
+  "custom_dns": "",
+  "skin": "default",
+  "routing": {
+    "enabled": false,
+    "ip_source": "ir",
+    "domain_source": "ir",
+    "direct_ips": "",
+    "direct_domains": "",
+    "vpn_ips": "",
+    "vpn_domains": ""
+  }
+}

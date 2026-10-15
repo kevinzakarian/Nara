@@ -1,0 +1,200 @@
+.nava{--nv-ink:#162f38;--nv-teal:#006d68;--nv-muted:#60777d;--nv-line:#dde8e7;--nv-orb-surface:#e7f0e6;--nv-orb-line:#c6d9ca;--nv-orb-ring-near:#e5eee480;--nv-orb-ring-far:#e4ede440;position:relative;z-index:0;max-width:1120px;margin:16px auto 40px;color:var(--nv-ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:14px;line-height:1.6;text-align:left;color-scheme:light}
+.nava *{box-sizing:border-box}.nava [hidden]{display:none!important}.nava h1,.nava h2,.nava h3,.nava p{margin:0}.nava h1{font-size:29px;font-weight:750;letter-spacing:-1.1px;line-height:1.2;color:var(--nv-ink);border:0}.nava h2{font-size:34px;font-weight:650;letter-spacing:-1.1px;line-height:1.22;color:var(--nv-ink)}.nava h3{font-size:17px;line-height:1.4;font-weight:650;color:var(--nv-ink)}
+.nv-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:26px;padding:0 3px}.nv-brand{display:flex;align-items:center;gap:13px}.nv-brand p{color:var(--nv-muted);font-size:12px;margin-top:3px}.nv-logo{display:flex;align-items:center;justify-content:center;width:47px;height:47px;border-radius:15px;background:var(--nv-ink);color:#d5f5cf;font-weight:750;font-size:30px;font-style:italic}
+.nv-hero{position:relative;overflow:hidden;background:#edf5f1;border:1px solid #dfebe4;border-radius:23px;min-height:264px;padding:35px 38px;display:flex;align-items:center;justify-content:space-between;gap:32px}.nv-hero-copy{max-width:680px;position:relative;z-index:1}.nv-badge{display:inline-flex;gap:7px;align-items:center;border:1px solid #d1ded6;background:#fff9;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:650;margin-bottom:17px}.nv-badge:before{content:"";width:6px;height:6px;border-radius:50%;background:#80988d}.nv-connected .nv-badge:before{background:#168565;box-shadow:0 0 0 3px #16856518}.nv-hero .nv-muted{margin-top:12px;max-width:535px;font-size:13px}.nv-muted{color:var(--nv-muted)}.nv-hero-actions{display:flex;gap:10px;align-items:center;margin-top:24px}.nv-orb{flex-shrink:0;width:154px;height:154px;border:1px solid #c6d9ca;border-radius:50%;display:grid;place-items:center;position:relative;margin:0 26px;background:#e7f0e6;box-shadow:0 0 0 20px #e5eee480,0 0 0 40px #e4ede440}.nv-orb-inner{width:91px;height:91px;border-radius:50%;border:1px solid #b6cdbd;background:#f8fcf6;display:grid;place-items:center;font-size:51px;font-weight:300;line-height:1;color:#6f8d7d}.nv-busy .nv-orb{animation:nv-breathe 2s ease-in-out infinite}@keyframes nv-breathe{50%{opacity:.6}}
+.nava .nv-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;white-space:nowrap;min-height:42px;padding:9px 19px;border-radius:9px;border:1px solid transparent;font-family:inherit;line-height:1.4;font-size:12px;font-weight:600;cursor:pointer;box-shadow:none;text-shadow:none;transition:background .15s,box-shadow .15s;min-width:0;margin:0;background-image:none}.nava .nv-button:disabled{opacity:.45;cursor:wait}.nava .nv-button:focus-visible,.nava input:focus-visible,.nava select:focus-visible,.nava .nv-reveal:focus-visible{outline:3px solid #70bdb3;outline-offset:3px}.nava .nv-primary{background:var(--nv-teal);color:#fff;min-width:131px;box-shadow:0 4px 8px #006d6814}.nava .nv-primary:hover{background:#005955}.nava .nv-secondary{background:#fff;color:var(--nv-ink);border-color:var(--nv-line)}.nava .nv-secondary:hover{background:#f3f8f6;border-color:#a9c6bb}.nava .nv-quiet{background:transparent;color:var(--nv-teal);padding-left:9px;padding-right:9px}.nava .nv-disconnect{background:#fff;border-color:#b9d0c2;color:#2e5145}.nv-metrics{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--nv-line);border-radius:14px;margin:20px 0 25px;background:#fff}.nv-metric{padding:19px 25px;display:flex;flex-direction:column;gap:5px}.nv-metric+.nv-metric{border-left:1px solid var(--nv-line)}.nv-metric span{letter-spacing:1.4px;font-size:9px;font-weight:700;color:var(--nv-muted)}.nv-metric strong{font-size:22px;font-weight:650;letter-spacing:-.5px}
+.nv-columns{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:20px}.nv-card{border:1px solid var(--nv-line);border-radius:16px;padding:26px;background:#fff}.nv-side{display:flex;flex-direction:column;gap:20px}.nv-card-heading{display:flex;align-items:center;gap:12px;margin-bottom:24px}.nv-card-heading p{font-size:12px;color:var(--nv-muted);margin-top:3px}.nv-step{width:31px;height:31px;border:1px solid var(--nv-line);display:grid;place-items:center;border-radius:9px;color:var(--nv-muted);font-size:11px;flex-shrink:0}.nv-label{display:block;font-size:12px;font-weight:650;margin:22px 0 9px}.nv-input-wrap{position:relative}.nava input[type=password],.nava input[type=text],.nava select{border:1px solid #cfddda;border-radius:8px;background:#fbfdfc;color:var(--nv-ink);width:100%;max-width:none;height:46px;padding:10px 13px;font:inherit;font-size:12px;box-shadow:none;margin:0}.nava input[type=password],.nava input[type=text]{padding-right:65px}.nava input::placeholder{color:#83958f}.nv-reveal{position:absolute;right:9px;top:9px;border:0;background:#ecf3ef;color:var(--nv-teal);border-radius:5px;padding:4px 8px;cursor:pointer;font:inherit;font-size:10px}.nv-field-note{font-size:11px;color:var(--nv-muted);margin-top:9px!important;line-height:1.6}.nv-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:25px}.nv-updated{display:flex;align-items:center;justify-content:space-between;gap:10px;border-top:1px solid #edf2ef;padding-top:19px;margin-top:26px;font-size:10px;color:var(--nv-muted)}.nv-toggle{display:flex;justify-content:space-between;align-items:center;gap:18px;cursor:pointer;padding:0 0 18px}.nv-toggle+.nv-toggle{border-top:1px solid #edf2ef;padding-top:18px}.nv-toggle strong{font-size:12px;font-weight:600;display:block}.nv-toggle small{font-size:11px;display:block;color:var(--nv-muted);margin-top:4px;max-width:240px}.nava input[type=checkbox]{appearance:none;-webkit-appearance:none;width:34px;min-width:34px;height:20px;border:0;border-radius:20px;background:#d5e1dc;position:relative;cursor:pointer;margin:0;vertical-align:middle}.nava input[type=checkbox]:before{content:"";position:absolute;width:14px;height:14px;border-radius:50%;background:#fff;left:3px;top:3px;box-shadow:0 1px 2px #0002;transition:transform .15s}.nava input[type=checkbox]:checked{background:var(--nv-teal)}.nava input[type=checkbox]:checked:before{transform:translateX(14px)}.nv-core-card{background:#f7faf8}.nv-core-card p{font-size:12px;margin:10px 0 18px}.nv-footer{margin-top:26px;padding:0 3px;font-size:10px;color:var(--nv-muted);line-height:1.7}.nv-footer>span{font-weight:650;letter-spacing:.15px}.nv-footer p{margin-top:8px}.nava a{color:var(--nv-teal);text-decoration:none}.nv-progress{padding:12px 16px;border:1px solid #d6e5dc;border-radius:10px;background:#f2f8f4;margin:0 0 20px;font-size:12px}.nv-error{border-color:#eed2cc;background:#fff6f3;color:#983f2d}.nv-warnings{font-size:11px;color:#976028;margin-top:12px}.nv-warnings summary{cursor:pointer}.nv-warnings p{margin-top:8px;overflow-wrap:anywhere}
+@media(max-width:760px){.nava{margin:10px auto 30px}.nv-hero{padding:25px;min-height:240px}.nava h2{font-size:28px}.nv-orb{width:110px;height:110px;margin:0 4px}.nv-orb-inner{width:70px;height:70px;font-size:40px}.nv-columns{grid-template-columns:1fr}.nv-metric{padding:15px}.nv-metric span{font-size:8px;letter-spacing:.7px}.nv-metric strong{font-size:19px}.nv-card{padding:23px}}
+@media(max-width:470px){.nv-orb{display:none}.nv-hero{padding:24px 21px}.nava h2{font-size:27px}.nv-metrics{margin-top:15px}.nv-metric{padding:14px 10px}.nv-metric strong{font-size:17px}.nv-metric span{font-size:7px;letter-spacing:.4px}.nv-card{padding:20px}.nv-updated{align-items:flex-start;flex-direction:column}.nv-actions{gap:8px}}
+@media(prefers-reduced-motion:reduce){.nava *{animation:none!important;transition:none!important}}
+
+/* Scope layout rules to Nava so LuCI theme rules do not change its navigation. */
+.nava .nv-header{position:static;inset:auto;z-index:auto;width:auto;height:auto;background:transparent;color:var(--nv-ink);box-shadow:none}
+.nava .nv-hero{color:var(--nv-ink)}
+.nava .nv-badge{color:var(--nv-ink)}
+.nava .nv-panel[hidden]{display:none!important}
+.nava .nv-tabs{display:flex;position:static;gap:10px;flex-wrap:wrap;padding:0;margin:20px 0 18px;border:0;border-radius:0;background:transparent;width:auto;max-width:100%;box-shadow:none}
+.nava button.nv-tab{display:inline-flex;align-items:center;justify-content:center;appearance:none;min-height:42px;min-width:135px;padding:10px 20px;margin:0;border:1px solid #cfddda;border-radius:8px;background:#fff;background-image:none;color:#405e57;font-family:inherit;font-size:13px;line-height:1.4;font-weight:650;text-shadow:none;box-shadow:none;cursor:pointer}
+.nava button.nv-tab:hover{background:#f6faf8;color:var(--nv-teal)}
+.nava button.nv-tab.nv-tab-active{background:#006d68;color:#fff;border-color:#006d68;box-shadow:0 2px 6px #006d681c}
+.nava button.nv-tab:focus-visible{outline:3px solid #70bdb3;outline-offset:2px}
+.nava .nv-danger{color:#a34f3d}
+.nava #nv-custom-dns{margin-top:10px;padding-right:13px}
+.nava .nv-main{display:flex;flex-direction:column;min-width:0}
+.nava .nv-actions-bottom{display:flex;flex-wrap:wrap;gap:10px;border-top:1px solid #dde8e7;padding-top:20px;margin-top:auto}
+.nava .nv-main .nv-warnings{margin-bottom:20px}
+.nava .nv-subscriptions-card{padding:26px;min-width:0}
+.nava .nv-subscriptions-card>.nv-card-heading{align-items:center;flex-wrap:wrap}
+.nava .nv-subscriptions-card>.nv-card-heading>.nv-button{margin-left:auto;flex-shrink:0}
+.nava .nv-table-note{margin:0 0 18px!important}
+.nava .nv-table-scroll{display:block;width:100%;overflow-x:auto;border:1px solid #d4e2dc;border-radius:10px;background:#fff}
+.nava table.nv-subscription-table{display:table!important;table-layout:auto;width:100%;min-width:0;margin:0;border:0;border-collapse:collapse;border-spacing:0;background:#fff;color:#162f38;font-size:12px;text-align:left}
+.nava table.nv-subscription-table thead{display:table-header-group!important;background:#edf5f1}
+.nava table.nv-subscription-table tbody{display:table-row-group!important}
+.nava table.nv-subscription-table tr{display:table-row!important;background:transparent;border:0}
+.nava table.nv-subscription-table th,.nava table.nv-subscription-table td{display:table-cell!important;float:none!important;position:static;width:auto;height:auto;padding:14px 16px;border:0;border-bottom:1px solid #dce7e2;vertical-align:middle;text-align:left;white-space:normal;overflow-wrap:anywhere;background:transparent;color:#162f38;line-height:1.5}
+.nava table.nv-subscription-table th{font-size:10px;letter-spacing:.7px;text-transform:uppercase;font-weight:700;color:#405e57}
+.nava table.nv-subscription-table td:before,.nava table.nv-subscription-table td:after{display:none!important;content:none!important}
+.nava table.nv-subscription-table tbody tr:nth-child(even){background:#f7faf8}
+.nava table.nv-subscription-table tbody tr:hover{background:#eef7f2}
+.nava table.nv-subscription-table tr:last-child td{border-bottom:0}
+.nava .nv-sub-name{font-weight:650}
+.nava table.nv-subscription-table td.nv-status-active{color:#006d68;font-weight:700}
+.nava .nv-row-actions{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.nava .nv-button.nv-table-button{min-height:32px;padding:6px 10px;font-size:11px;border:1px solid #d4e2dc;background:#fff;margin:0}
+.nava table.nv-subscription-table .nv-empty-cell{text-align:center;color:var(--nv-muted);padding:28px 10px}
+.nava .nv-modal{position:fixed;inset:0;z-index:1000;display:grid;place-items:center;padding:24px;overflow-y:auto}
+.nava .nv-modal[hidden]{display:none!important}
+.nava .nv-modal-backdrop{position:absolute;inset:0;background:#102d2d99}
+.nava .nv-modal-dialog{position:relative;width:min(100%,500px);max-height:calc(100vh - 48px);overflow-y:auto;padding:27px;border:1px solid var(--nv-line);border-radius:16px;background:#fff;color:var(--nv-ink);box-shadow:0 18px 60px #122b2b44}
+.nava .nv-modal-heading{margin-bottom:4px}
+.nava .nv-modal-heading h3{font-size:20px}
+.nava .nv-modal-heading p{font-size:12px;margin-top:5px}
+.nava .nv-modal-actions{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:9px;margin-top:23px}
+.nava .nv-modal-dialog .nv-label{margin-top:18px}
+.nava #nv-subscription-name{padding-right:13px}
+@media(max-width:600px){
+ .nava .nv-subscriptions-card>.nv-card-heading>.nv-button{margin-left:0}
+ .nava .nv-modal-dialog{padding:22px}
+ .nava .nv-actions-bottom .nv-button{flex:1 1 auto}
+}
+
+.nava button.nv-orb{padding:0;cursor:pointer;appearance:none;background:#e9ecef;border-color:#cdd3d8;box-shadow:0 0 0 20px #dfe3e780,0 0 0 40px #e9ecef40;background-image:none;min-width:0;text-shadow:none;line-height:1}
+.nava button.nv-orb .nv-orb-inner{background:#7b8490;color:#fff;border-color:#7b8490;box-shadow:0 8px 24px #00000015}
+.nava.nv-active button.nv-orb{background:var(--nv-orb-surface);border-color:var(--nv-orb-line);box-shadow:0 0 0 20px var(--nv-orb-ring-near),0 0 0 40px var(--nv-orb-ring-far)}
+.nava.nv-active button.nv-orb .nv-orb-inner{background:var(--nv-teal);border-color:var(--nv-teal);box-shadow:0 8px 24px #00000018}
+.nava button.nv-orb:focus-visible{outline:3px solid #70bdb3;outline-offset:5px}
+.nava button.nv-orb:disabled{cursor:wait;opacity:.6}
+.nava button.nv-orb:hover:not(:disabled) .nv-orb-inner{filter:brightness(1.1)}
+.nv-test-destination{display:block;font-size:10px;line-height:1.6;color:#60766e;overflow-wrap:anywhere;margin-top:4px}
+.nava .nv-test-toolbar{display:flex;gap:14px;align-items:flex-end;flex-wrap:wrap;margin:20px 0 12px}
+.nava .nv-test-target{width:220px;max-width:100%}
+.nava .nv-test-target .nv-label{margin-top:0;margin-bottom:6px}
+.nava .nv-test-target select{margin:0;width:100%;height:42px}
+.nv-sub-name small{display:block;margin-top:5px;font-size:10px;font-weight:500}
+.nv-status-active{color:#006d68}
+.nava table.nv-subscription-table td.nv-result-good{color:#14774e;font-weight:650}
+.nava table.nv-subscription-table td.nv-result-restricted{color:#9b620a}
+.nv-result-count,.nv-result-target{display:block;font-size:10px;line-height:1.6;color:#60766e;font-weight:400}
+.nava table.nv-subscription-table td.nv-protocols{font-size:11px;line-height:1.8}
+.nava .nv-row-actions{gap:5px}
+.nava .nv-row-actions .nv-table-button{padding:7px 9px;min-height:34px;font-size:11px}
+@media(max-width:760px){.nava .nv-metrics{grid-template-columns:repeat(2,1fr)}.nava .nv-metric:nth-child(3){border-left:0;border-top:1px solid var(--nv-line)}.nava .nv-metric:nth-child(4){border-top:1px solid var(--nv-line)}}
+@media(max-width:470px){.nava button.nv-orb{display:grid;width:58px;height:58px;margin:0;box-shadow:none;border:0;background:transparent}.nava button.nv-orb .nv-orb-inner{width:48px;height:48px;font-size:29px}.nava .nv-hero{gap:8px}.nava .nv-test-toolbar{align-items:stretch}.nava .nv-test-target{width:100%}.nava .nv-test-toolbar>.nv-button{width:100%}}
+
+/* Content determines the column widths; compact actions fit narrow views. */
+.nava .nv-brand-line{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-bottom:23px}
+.nava .nv-hero{min-height:230px;padding:28px 34px}
+.nava .nv-hero-copy{flex:1;max-width:none}
+.nava .nv-hero h2{font-size:27px}
+.nava .nv-hero .nv-badge{margin-bottom:10px}
+.nava .nv-metric{padding:12px 20px;gap:3px}
+.nava .nv-metric strong{font-size:19px}
+.nava .nv-actions-bottom{align-items:center;justify-content:space-between;gap:14px}
+.nava .nv-last-updated{font-size:10px;line-height:1.6;color:var(--nv-muted);margin:0}
+.nava .nv-row-actions{flex-wrap:nowrap;gap:6px}
+.nava .nv-button.nv-icon-button{width:32px;height:32px;min-height:32px;padding:7px;border:1px solid #d4e2dc;background:#fff;flex:0 0 32px;color:var(--nv-teal)}
+.nava .nv-button.nv-icon-button.nv-danger{color:#a34f3d}
+.nava .nv-button.nv-icon-button:hover{background:#edf5f1;border-color:#9ebfb1}
+.nava .nv-icon-button svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.nava table.nv-subscription-table th{white-space:nowrap}
+.nava table.nv-subscription-table th,.nava table.nv-subscription-table td{padding:12px 14px;overflow-wrap:normal}
+.nava table.nv-subscription-table td:first-child,.nava table.nv-subscription-table td.nv-protocols{overflow-wrap:anywhere}
+.nava table.nv-subscription-table td:nth-child(3),.nava table.nv-subscription-table td:nth-child(4),.nava table.nv-subscription-table td:nth-child(5){white-space:nowrap}
+@media(max-width:600px){.nava .nv-hero{padding:24px 21px}.nava .nv-hero h2{font-size:23px}.nava .nv-metric{padding:10px 14px}.nava .nv-metric strong{font-size:17px}.nava table.nv-subscription-table th,.nava table.nv-subscription-table td{padding:10px}.nava .nv-last-updated{flex:1 1 150px}}
+
+.nava .nv-toolbar-actions{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:10px}
+.nava .nv-about-card p{margin-bottom:12px;max-width:900px}
+.nava .nv-about-card h4{font-size:14px;margin:24px 0 8px;color:var(--nv-ink)}
+.nava .nv-about-card a{color:var(--nv-teal);text-decoration:underline;text-underline-offset:3px}
+.nava .nv-about-credit{color:var(--nv-teal);font-size:18px;font-weight:700}
+.nava .nv-modal-dialog #nv-subscription{padding:12px 13px;width:100%}
+@media(max-width:600px){
+ .nava .nv-toolbar-actions{width:100%;justify-content:flex-start}
+ .nava .nv-toolbar-actions .nv-button{flex:1 1 auto}
+ .nava .nv-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+ .nava .nv-tabs .nv-tab{min-width:0}
+}
+
+.nava .nv-general-card .nv-skin-field{max-width:380px}
+.nava .nv-skin-field .nv-label{margin-top:0}
+.nava .nv-skin-preview{display:flex;align-items:center;flex-wrap:wrap;gap:9px;margin:24px 0;color:var(--nv-muted);font-size:12px}
+.nava .nv-skin-dot{width:25px;height:25px;border-radius:50%;border:1px solid var(--nv-line)}
+.nava .nv-skin-accent{background:var(--nv-teal)}
+.nava .nv-skin-surface{background:#edf5f1}
+.nava .nv-skin-ink{background:var(--nv-ink);margin-right:8px}
+
+/* Orange changes appearance only; connection states retain their colors. */
+.nava[data-skin=orange] .nv-core-card{background:#fffcf8}
+.nava[data-skin=orange]{--nv-ink:#492c20;--nv-teal:#b65317;--nv-muted:#876b5a;--nv-line:#eadacc}
+.nava[data-skin=orange] .nv-hero{background:#fff2e7;border-color:#eedbcc}
+.nava[data-skin=orange] .nv-logo{color:#ffd4b3}
+.nava[data-skin=orange] .nv-primary{box-shadow:0 4px 8px #b6531717}
+.nava[data-skin=orange] .nv-primary:hover{background:#934112}
+.nava[data-skin=orange] .nv-secondary:hover,.nava[data-skin=orange] button.nv-tab:hover{background:#fff4ea;border-color:#d9b79e;color:var(--nv-teal)}
+.nava[data-skin=orange] button.nv-tab.nv-tab-active{background:var(--nv-teal);border-color:var(--nv-teal);color:#fff;box-shadow:0 2px 6px #b653171c}
+.nava[data-skin=orange] .nv-button:focus-visible,.nava[data-skin=orange] button.nv-tab:focus-visible,.nava[data-skin=orange] input:focus-visible,.nava[data-skin=orange] select:focus-visible{outline-color:#e6a577}
+.nava[data-skin=orange] input[type=text],.nava[data-skin=orange] select{background:#fffdfa;border-color:var(--nv-line)}
+.nava[data-skin=orange] .nv-progress{background:#fff7ed;border-color:var(--nv-line)}
+.nava[data-skin=orange] .nv-progress.nv-error{background:#fff2ef;color:#983f2d;border-color:#eed2cc}
+.nava[data-skin=orange] table.nv-subscription-table th{background:#fff1e5;color:#6d4936}
+.nava[data-skin=orange] table.nv-subscription-table tbody tr:nth-child(even){background:#fffbf7}
+.nava[data-skin=orange] table.nv-subscription-table tbody tr:hover,.nava[data-skin=orange] .nv-icon-button:hover{background:#fff2e6}
+.nava[data-skin=orange] .nv-status-active{color:var(--nv-teal)}
+.nava[data-skin=orange] .nv-actions-bottom{border-color:var(--nv-line)}
+.nava[data-skin=orange] .nv-skin-surface{background:#fff2e7}
+@media(max-width:600px){
+}
+.nava[data-skin=orange] button.nv-tab{color:var(--nv-ink)}
+.nava[data-skin=orange] button.nv-tab.nv-tab-active{color:#fff}
+.nava[data-skin=orange]{--nv-orb-surface:#fff4e8;--nv-orb-line:#eadacc;--nv-orb-ring-near:#f8e8db80;--nv-orb-ring-far:#faeadd40}
+@media(max-width:470px){.nava[data-skin=orange] button.nv-orb{background:transparent;box-shadow:none}}
+
+/* Country routing stays scoped to Nara; no sticky overlays or theme globals. */
+.nava .nv-routing-card{max-width:960px}
+.nava .nv-routing-switch{display:flex;align-items:center;flex-wrap:wrap;gap:10px;border:0;padding:0;margin:0 0 24px;min-width:0}
+.nava .nv-routing-switch legend{font-size:12px;font-weight:650;margin:0 0 10px;padding:0}
+.nava .nv-routing-switch label{display:flex;align-items:center;gap:9px;padding:11px 18px;border:1px solid var(--nv-line);border-radius:9px;cursor:pointer;margin:0;background:#fbfdfc;color:var(--nv-ink);font-size:12px}
+.nava .nv-routing-switch label:has(input:checked){border-color:var(--nv-teal);background:var(--nv-paper,#f2f8f4)}
+.nava .nv-routing-switch input{appearance:auto;-webkit-appearance:radio;width:16px;height:16px;min-width:16px;margin:0;accent-color:var(--nv-teal)}
+.nava .nv-routing-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.nava .nv-routing-field{padding:20px;border:1px solid var(--nv-line);border-radius:12px;background:#fbfdfc;min-width:0}
+.nava .nv-routing-kind{font-size:9px;letter-spacing:1.5px;color:var(--nv-muted);font-weight:700}
+.nava .nv-routing-field .nv-label{margin:12px 0 9px}
+.nava .nv-routing-field select{height:46px;width:100%;padding-right:28px}
+.nava .nv-routing-flow{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:22px 0 12px}
+.nava .nv-routing-flow>div{display:flex;flex-direction:column;gap:6px;border-left:3px solid var(--nv-teal);padding-left:13px;font-size:12px}
+.nava .nv-routing-flow span{color:var(--nv-muted);font-size:11px}
+.nava .nv-routing-updates{display:flex;align-items:center;flex-wrap:wrap;gap:14px;margin:24px 0 12px}
+.nava .nv-routing-updated{font-size:11px;color:var(--nv-muted)}
+.nava .nv-routing-card .nv-actions-bottom{margin-top:22px}
+.nava[data-skin=orange] .nv-routing-field,.nava[data-skin=orange] .nv-routing-switch label{background:#fffdfa}
+@media(max-width:620px){.nava .nv-routing-grid{grid-template-columns:1fr;gap:14px}.nava .nv-routing-field{padding:16px}.nava .nv-routing-flow{gap:12px}.nava .nv-routing-flow strong{font-size:11px}}
+
+.nava .nv-about-meta{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;margin:0 0 22px}
+.nava .nv-about-meta .nv-about-credit{margin:0}
+.nava .nv-about-version{display:flex;align-items:center;flex-wrap:wrap;gap:12px;padding:9px 13px;border:1px solid var(--nv-line);border-radius:9px;font-size:12px}
+.nava .nv-about-version span{color:var(--nv-muted)}
+.nava .nv-about-version strong{color:var(--nv-ink);font-variant-numeric:tabular-nums}
+@media(max-width:470px){.nava button.nv-orb,.nava.nv-active button.nv-orb{background:transparent;border:0;box-shadow:none}}
+
+/* Share exactly the same logo/title alignment in the hero and About. */
+.nava .nv-brand .nv-brand-title{font-size:29px;font-weight:750;letter-spacing:-1.1px;line-height:1.2;margin:0;color:var(--nv-ink);border:0}
+.nava .nv-brand p{font-size:12px;line-height:1.6;margin:3px 0 0;color:var(--nv-muted)}
+.nava .nv-about-brand{margin-bottom:24px}
+.nava .nv-custom-routing-card{max-width:960px;margin-top:20px}
+.nava .nv-custom-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.nava .nv-custom-group{border:1px solid var(--nv-line);border-radius:12px;padding:20px;min-width:0;background:#fbfdfc}
+.nava .nv-custom-group h4{margin:0 0 5px;font-size:15px;color:var(--nv-ink)}
+.nava .nv-custom-group>.nv-muted{font-size:12px}
+.nava .nv-custom-field .nv-label{margin:18px 0 8px}
+.nava .nv-custom-field textarea{display:block;box-sizing:border-box;width:100%;max-width:100%;min-height:148px;resize:vertical;border:1px solid #cfddda;border-radius:8px;background:#fff;color:var(--nv-ink);padding:12px;font:12px/1.6 ui-monospace,SFMono-Regular,Menlo,monospace;box-shadow:none;margin:0;white-space:pre;overflow:auto}
+.nava .nv-custom-field textarea:focus-visible{outline:3px solid #70bdb3;outline-offset:3px}
+.nava .nv-custom-field textarea::placeholder{color:#83958f}
+.nava .nv-custom-field textarea:disabled{opacity:.55}
+.nava .nv-routing-save{max-width:960px;margin-top:20px;padding:0 2px}
+.nava .nv-routing-save .nv-actions{margin-top:14px}
+.nava[data-skin=orange] .nv-custom-group{background:#fffdfa}
+.nava[data-skin=orange] .nv-custom-field textarea{border-color:var(--nv-line);background:#fffdfa}
+.nava[data-skin=orange] .nv-custom-field textarea:focus-visible{outline-color:#e6a577}
+@media(max-width:620px){.nava .nv-custom-grid{grid-template-columns:1fr;gap:14px}.nava .nv-custom-group{padding:16px}}
