@@ -6,9 +6,9 @@ An English LuCI application for managing sing-box subscriptions, connecting your
 
 Created by **Kevin Zakarian**. Current application version: **1.0.0-30**.
 
-![NARA Connection — full page](screenshots/nara-connection.jpg)
+![NARA Connection — full desktop page](screenshots/nara-connection-desktop.jpg)
 
-*Full-page Connection tab, using the Default skin and simulated preview data.*
+*Full-page desktop view at 1920 pixels wide, using the Default skin and simulated preview data. Open the image to view it at full resolution.*
 
 ## Features
 
